@@ -22,4 +22,4 @@ Développer une application web en PHP permettant aux utilisateurs de faire des 
 
 ![image](https://github.com/user-attachments/assets/4d02d7bc-647f-4602-95da-edc372f6998b)
 
---Projet réalisé par Lambusta Lukaz, Wellele Mathias, Mbengue Assane dans le cadre d’un projet pour le BTS SIO spécialité réseau--
+<u Projet réalisé par Lambusta Lukaz, Wellele Mathias, Mbengue Assane dans le cadre d’un projet pour le BTS SIO spécialité réseau /u>
