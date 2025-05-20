@@ -1,0 +1,222 @@
+/* cela nous permettra de mettre toutes les propriétés qui
+nous donnerons la possibilité de changer
+ l'aspect vision de notre page dans les acolates */
+body {
+    width: 90%;
+    /* ca nous permettra e réduire les bords - 10% de chaque côtée */
+    margin: auto;
+}
+
+/*.header {
+    top: 0;
+    /* là on range les éléments de notre header en flexbox */
+display: flex;
+/* là on a voulu de bien centrer nos 3 éléments dans notre menu de navigation 
+    par rapport à notre logo */
+/*  align-items: center;
+    /* on change la couleur de notre entête en blanc */
+/* background-color: white;
+   /* margin-top: 20px;
+    
+    /* cela nous permet de changer la taille e notre arrière plan */
+/* height: 100vh;
+    /* on peut definir notre ilage comme une couverture 
+    cela nous permet de ne pas repeter l'image quand 
+    on deforme la page */
+/* background-size: cover;*/
+
+/*}
+
+img {
+    /*cela nous permet de changer la taille de notre logo */
+/*  top: 0;
+    width: 5%;
+}
+
+/* menu de navigation */
+/*ça permet d'afficher  le menu de navigation en flex
+on va utiliser des flexbox (comme une boite qui contient quelk chose 
+et on organise son contenu comme on veut*/
+/*ul.nav {
+    position: absolute;
+    /*top: 0; ca positionne en haut */
+/*  right: 20%;
+    /*ca positionne completement à droite*/
+/*display: flex;
+    /* cette balise nous permet d'enlever les points qui précédent 
+    nos différentes parties de notre menu de navigation */
+/*list-style: none;
+    /* on change ici la couleur de notre navigation  */
+/*background-color: azure;
+    /* on augmente la place de notre bote de navigation  */
+/*width: 50px;
+
+}
+
+/* là on change la couleur des parties de notre menu de navigation */
+/*ul.nav li {
+    color: rgb(209, 23, 23);
+    /*cela augmente la marge de mes parties dan mes li */
+/*  margin-right: 20px;
+    top: 0;
+
+}
+
+.separator {
+    height: 3px;
+    background-color: brown;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.sous-titre {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.page {
+    display: block;
+    /* par rapport au autres parties elle va être sur la largeur à 100%  */
+/*width: 100%;
+    /* ca nous permettra e réduire les bords - 10% de chaque côtée */
+/*margin: auto;
+    /* c cela qui lui permettra de savoir  les 20% d'en haut, -10%  de chaq côtée */
+/*margin-top: 20px;
+    /* ca lui permettra de respecter la distance entre lui et l'entête */
+
+/*}
+
+.bienvenue {
+    display: flex;
+    flex-direction: row;
+    /* cela nous permettra de mettre tous ls éléments de notre partie sur une ligne */
+/*  justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.bienvenue img {
+    height: 650px;
+    /* ca change la hauteur de notre image */
+/* width: 800px;
+    /* change notre image de la gauche vers la droite */
+/*border-radius: 5px;
+    /* ça transforme un peu les bordures, les angles de notre image */
+/*}
+
+.bienvenue p {
+    margin-left: 20px;
+    /* ça lui proppose de laisser une marge afin de ne pas se coller à notre image */
+/*}
+
+/*.partie2 {
+    display: flex;
+    flex-direction: row;
+    /* les 2 en haut nous permettront de mettre tous ls éléments de notre partie sur une ligne */
+/*  justify-content: center;
+    margin-bottom: 50px;
+
+
+}
+
+/* .partie2 img {
+
+   /* height: 650px;*/
+/* ca change la hauteur de notre image */
+/*width: 800px;*/
+/* change notre image de la gauche vers la droite */
+/*border-radius: 5px; */
+/* ça transforme un peu les bordures, les angles de notre image */
+/*} */
+
+/* .Vestiaire img {
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 600px;
+    width: 800px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 40px;
+    /* float: right;*/
+/*}
+
+
+.Domicile img {
+    border-radius: 5px;
+    width: 200px;
+    float: right;
+    height: 200px;
+    margin-left: 10px;
+    /* place l'image complétement à droite */
+/*}
+
+.Exterieur img {
+    border-radius: 5px;
+    width: 200px;
+    float: right;
+    height: 200px;
+    margin-left: 40px;
+    /* place l'image complétement à roite */
+/*}
+
+.niveauvip img {
+    border-radius: 5px;
+    width: 400px;
+    float: right;
+    height: 600px;
+    margin-left: 30px;
+    top: 0;
+}
+
+.niveau2 img {
+    display: block;
+    border-radius: 5px;
+    width: 400px;
+    height: 600px;
+    margin-left: 30px;
+    /* place l'image complétement à droite */
+/*}
+
+.tribune {
+    display: flex;
+    flex-direction: row;
+    /* les 2 en haut nous permettront de mettre tous ls éléments de notre partie sur une ligne */
+/*    justify-content: center;
+    margin-bottom: 50px;
+/*}
+
+.niveau1 img {
+    display: block;
+    border-radius: 5px;
+    width: 400px;
+    height: 600px;
+    margin-left: 30px;
+    /* place l'image complétement à droite */
+/*}
+
+.mes_trophes img {
+    display: block;
+    border-radius: 5px;
+    width: 400px;
+    height: 600px;
+    margin-left: 30px;
+    /* place l'image complétement à droite */
+/*}
+
+.partie3 {
+    display: flex;
+    flex-direction: row;
+    /* les 2 en haut nous permettront de mettre tous ls éléments de notre partie sur une ligne */
+/*  justify-content: center;
+    margin-bottom: 50px;
+}
+
+.appareil img {
+    flex-direction: row;
+    display: block;
+    border-radius: 5px;
+    width: 400px;
+    height: 300px;
+    margin-left: 0px;
+    /* place l'image complétement à droite */
+/*}
